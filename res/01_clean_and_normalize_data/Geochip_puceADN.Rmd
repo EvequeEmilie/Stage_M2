@@ -1,0 +1,75 @@
+---
+title: "Geochip_puce"
+author: "Eveque Emilie"
+date: "05/02/2020"
+output: html_document
+---
+
+# _***Table match funct levels***_ 
+
+### _*A tiblle : 423 x 4*_
+
+*funct_category (12 levels)* : function category for exemple : "Antibiotic resistance"
+*funct_process (121 levels)* : the process for carry out the function : "Lipid biosynthesis" *funct_trait (420 levels)* : genes in the function : "alga"
+*n* : nomber of gene for each function trait, sum = 67628
+
+------------------------------------------------------------------------------------------
+
+# _***Apply filter***_ 
+
+### _* Removal of genes with less than 10 PROBES :*_
+*funct_category* : 12 levels
+*funct_process* : 101 levels
+*funct_trait* : 283 levesl
+*n* : sum = 67019
+
+With 10 fliter we lose 609 genes
+
+### _* Removal of genes with less than 15 PROBES :*_
+*funct_category* : 12 levels
+*funct_process* : 95 levels
+*funct_trait* : 260 levels
+*n* : sum = 66730
+
+With 15 fliter we lose 898 genes
+
+### _* Removal of genes with less than 20 PROBES :*_
+*funct_category* : 12 levels
+*funct_process* : 94 levels
+*funct_trait* : 253 levels
+*n* : sum = 66611
+
+With 20 fliter we lose 1017 genes
+
+### _* Removal of genes with less than 25 PROBES :*_
+*funct_category* : 12 levels
+*funct_process* : 90 levels
+*funct_trait* : 239 levels
+*n* : sum = 66292
+
+With 25 fliter we lose  genes
+
+### _* Removal of genes with less than 30 PROBES :*_
+*funct_category* : 12 levels
+*funct_process* : 88 levels
+*funct_trait* : 229 levels
+*n* : sum = 66019
+
+With 30 fliter we lose  genes
+
+### _* Removal of genes with less than 35 PROBES :*_
+*funct_category* : 12 levels
+*funct_process* : 84 levels
+*funct_trait* : 213 levels
+*n* : sum = 65498
+
+With 35 fliter we lose  genes
+
+### _* Removal of genes with less than 40 PROBES :*_
+*funct_category* : 12 levels
+*funct_process* : 81 levels
+*funct_trait* : 202 levels
+*n* : sum = 65080
+
+With 40 fliter we lose  genes
+
